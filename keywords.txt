@@ -1,0 +1,93 @@
+#######################################
+# Syntax Coloring DFRobot_GNSSAndRTC
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_GNSSAndRTC_I2C	KEYWORD1
+DFRobot_GNSSAndRTC_UART	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+calibRTC	KEYWORD2
+calibStatus	KEYWORD2
+
+getUTC	KEYWORD2
+getDate	KEYWORD2
+getLat	KEYWORD2
+getLon	KEYWORD2
+getNumSatUsed	KEYWORD2
+getAlt	KEYWORD2
+getSog	KEYWORD2
+getCog	KEYWORD2
+setGnss	KEYWORD2
+getGnssMode	KEYWORD2
+getAllGnss	KEYWORD2
+enablePower	KEYWORD2
+disablePower	KEYWORD2
+setCallback	KEYWORD2
+
+eGnssMode_t	KEYWORD2
+sLonLat_t	KEYWORD2
+sTim_t	KEYWORD2
+
+getRTCTime	KEYWORD2
+setHourSystem	KEYWORD2
+setTime	KEYWORD2
+setAlarm	KEYWORD2
+getTemperatureC	KEYWORD2
+getVoltage	KEYWORD2
+clearAlarm	KEYWORD2
+getAMorPM	KEYWORD2
+enable32k	KEYWORD2
+disable32k	KEYWORD2
+writeSRAM	KEYWORD2
+readSRAM	KEYWORD2
+clearSRAM	KEYWORD2
+countDown	KEYWORD2
+
+sTimeData_t	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MODULE_I2C_ADDRESS	LITERAL1
+MODULE_DFR1103_PID	LITERAL1
+MODULE_DFR1103_VID	LITERAL1
+MODULE_DFR1103_VERSION	LITERAL1
+
+eCalibNone	LITERAL1
+eCalibComplete	LITERAL1
+eUnderCalib	LITERAL1
+
+eGPS	LITERAL1
+eBeiDou	LITERAL1
+eGPS_BeiDou	LITERAL1
+eGLONASS	LITERAL1
+eGPS_GLONASS	LITERAL1
+eBeiDou_GLONASS	LITERAL1
+eGPS_BeiDou_GLONASS	LITERAL1
+
+e24hours	LITERAL1
+e12hours	LITERAL1
+eSunday	LITERAL1
+eMonday	LITERAL1
+eTuesday	LITERAL1
+eWednesday	LITERAL1
+eThursday	LITERAL1
+eFriday	LITERAL1
+eSaturday	LITERAL1
+eEveryDay	LITERAL1
+eWorkday	LITERAL1
+eYearEnable	LITERAL1
+eMondayEnable	LITERAL1
+eDayEnable	LITERAL1
+eHoursEnable	LITERAL1
+eMinuteEnable	LITERAL1
+eSecondEnable	LITERAL1
