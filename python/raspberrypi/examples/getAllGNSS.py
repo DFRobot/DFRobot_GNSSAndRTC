@@ -5,7 +5,7 @@
   @copyright Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
   @license The MIT License (MIT)
   @author [thdyyl](yuanlong.yu@dfrobot.com)
-  @version V0.0.1
+  @version V1.0.0
   @date 2024-07-10
   @url https://github.com/DFRobot/DFRobot_GNSSAndRTC
 '''

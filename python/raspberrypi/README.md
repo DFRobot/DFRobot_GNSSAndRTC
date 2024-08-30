@@ -324,7 +324,7 @@ python control32k.py
 
 ## History
 
-- 2024/07/15 - Version 0.0.1 released.
+- 2024/07/15 - Version 1.0.0 released.
 
 ## Credits
 
